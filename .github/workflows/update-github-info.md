@@ -11,7 +11,12 @@ tools:
     toolsets: [repos]
   web-fetch:
 network:
-  allowed: [github.blog, github.com, awesome-copilot.github.com]
+  allowed: 
+    - "*.github.blog"
+    - "github.blog"
+    - "*.github.com"
+    - "github.com"
+    - "*.github.io"
 safe-outputs:
   create-pull-request:
     max: 1
