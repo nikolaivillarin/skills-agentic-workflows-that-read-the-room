@@ -6,10 +6,10 @@ on:
 permissions:
   contents: read
 tools:
-  edit:
+  edit: {}
   github:
     toolsets: [repos]
-  web-fetch:
+  web-fetch: {}
 network:
   allowed: 
     - "*.github.blog"
